@@ -1,0 +1,26 @@
+ALGORITHM CHECKPOINTALGO1
+
+VAR
+a : INTEGER := 0
+b : INTEGER := 0
+c : INTEGER := 0
+
+CONST
+d : STRING;
+
+BEGIN
+/*1*/
+WHILE (d[i] <> ".") DO
+    a :=a+1
+/*2*/
+IF (d[i] = " ") THEN
+    b := b+1
+END_IF
+/*3*/
+IF ( d[i] = "a" OR d[i] = "e" OR d[i] = "i"  OR d[i] = "u" OR d[i] = "O")  OR d[i] = "Y" THEN
+    c := c+1
+END_IF
+
+END_WHILE
+
+END
